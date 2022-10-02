@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import NavBar from '../components/NavBar.vue'
+import HeaderSection from '../components/HeaderSection.vue'
 </script>
 
 <template>
-  <NavBar />
+  <HeaderSection />
   <div>Settings</div>
 </template>

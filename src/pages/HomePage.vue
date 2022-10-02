@@ -1,21 +1,11 @@
 <script setup lang="ts">
-import Navbar from '../components/NavBar.vue'
 import LinkList from '../components/LinkList.vue'
+import HeaderSection from '../components/HeaderSection.vue'
+import CreateLink from '../components/CreateLink.vue'
 </script>
 
 <template>
-  <Navbar />
-  <div>Hello world</div>
+  <HeaderSection />
+  <CreateLink />
   <LinkList />
 </template>
-
-<script lang="ts">
-export default {
-  components: {
-    Navbar,
-    LinkList,
-  },
-}
-</script>
-
-<style></style>
