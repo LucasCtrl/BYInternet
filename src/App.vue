@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script lang="ts">
+import { useAuthStore } from './stores/auth'
+
+export default {
+  created() {
+    let store = useAuthStore()
+    store.fetchAuth()
+  },
+}
+</script>
+
 <style>
 body {
   @apply bg-slate-50;
