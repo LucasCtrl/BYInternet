@@ -11,6 +11,11 @@ export const useLinkStore = defineStore('link-store', {
     return {
       links: [
         {
+          key: 'lucas',
+          title: 'LucasAlt',
+          url: 'https://lucasalt.fr/',
+        },
+        {
           key: 'abc',
           title: 'Example.com',
           url: 'https://example.com/',
